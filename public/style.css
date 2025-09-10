@@ -102,18 +102,18 @@ header {
     padding: 20px;
     background-color: #121212;
     border-right: 1px solid #1f1f1f;
-    height: 85vh;
+    height: 70vh;
     position: fixed;
-    margin-left: 0px;
+    margin-left: 5px;
     margin-top: 25px;
-    margin-right: 0px;
+    margin-right: 5px;
     left: 5px; 
     top: 70px;
     overflow-y: auto;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     scrollbar-width: auto;
-    
+    margin-bottom: 50px;
 }
 .sidebar ul {
     list-style: none;
@@ -293,4 +293,17 @@ html, body{
     border-radius: 4px;
     max-height: 180px;
     object-fit: cover;
+}
+.footer {
+    background-color: #121212;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 0px 0px;
+    border-top: 1px solid #1f1f1f;
+    position: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
